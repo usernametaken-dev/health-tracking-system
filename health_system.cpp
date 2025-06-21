@@ -103,7 +103,7 @@ void registerUser() {
     cin.ignore();
     cout << "Enter full name: ";
     getline(cin, newMember.name);
-    cout << "Enter medical condition (e.g., hypertension, diabetes, none): ";
+    cout << "Enter medical condition (e.g., hypertension, diabetes, heart conditions): ";
     getline(cin, newMember.medicalCondition);
     newMember.health = {0, 0, 0, 0, 0.0, 0.0, {}};
     users.push_back(newMember);
